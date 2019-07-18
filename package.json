@@ -1,0 +1,19 @@
+{
+  "name": "handtable-cli",
+  "version": "0.0.1",
+  "description": "基于汉德表格的代码生成工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranyanchuan/handtable-cli.git"
+  },
+  "author": "ranyanchuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ranyanchuan/handtable-cli/issues"
+  },
+  "homepage": "https://github.com/ranyanchuan/handtable-cli#readme"
+}
