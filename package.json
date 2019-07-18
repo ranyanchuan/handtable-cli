@@ -4,7 +4,11 @@
   "description": "基于汉德表格的代码生成工具",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "handtable-cli": "node index.js"
+  },
+  "bin":{
+    "handtable-cli":"./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/ranyanchuan/handtable-cli/issues"
   },
-  "homepage": "https://github.com/ranyanchuan/handtable-cli#readme"
+  "homepage": "https://github.com/ranyanchuan/handtable-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "download-git-repo": "^2.0.0",
+    "handlebars": "^4.1.2",
+    "inquirer": "^6.5.0",
+    "log-symbols": "^3.0.0",
+    "ora": "^3.4.0"
+  }
 }
